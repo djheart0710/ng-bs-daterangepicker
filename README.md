@@ -106,3 +106,9 @@ npm install -g grunt-cli
 ```
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/luisfarzati/ng-bs-daterangepicker/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+### Note
+
+My angular's version is 1.2.16. If I didn't comment the statement "ngModel.$render()" in 
+ng-bs-daterangepicker.js file, then it failed to work, and it got an incorrect result in 
+input filed, **[object object]**. I think this relate to angular's version, and if you encounter the same problem, then you should comment the last statement.
