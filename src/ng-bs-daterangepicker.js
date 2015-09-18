@@ -96,7 +96,7 @@
 								startDate: (moment.isMoment(modelValue.startDate)) ? start : start.toDate(),
 								endDate: (moment.isMoment(modelValue.endDate)) ? end : end.toDate()
 							});
-							ngModel.$render();
+							// ngModel.$render();
 						});
 
 					});
